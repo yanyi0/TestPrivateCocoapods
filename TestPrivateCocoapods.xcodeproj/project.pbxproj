@@ -15,6 +15,8 @@
 		612B04BC210A485D0033153D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B04BB210A485D0033153D /* main.m */; };
 		612B04C6210A485D0033153D /* TestPrivateCocoapodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B04C5210A485D0033153D /* TestPrivateCocoapodsTests.m */; };
 		612B04D1210A485D0033153D /* TestPrivateCocoapodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 612B04D0210A485D0033153D /* TestPrivateCocoapodsUITests.m */; };
+		619E49E72117699200CB8F8D /* DYDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 619E49E62117699200CB8F8D /* DYDownloadTool.m */; };
+		882EE2B2AD97D3DECF7291E0 /* libPods-TestPrivateCocoapods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74801773EC5AF1F07AED4362 /* libPods-TestPrivateCocoapods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53DEA5DEB010877B60479051 /* Pods-TestPrivateCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPrivateCocoapods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPrivateCocoapods/Pods-TestPrivateCocoapods.debug.xcconfig"; sourceTree = "<group>"; };
 		612B04A9210A485D0033153D /* TestPrivateCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPrivateCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		612B04AC210A485D0033153D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		612B04AD210A485D0033153D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,10 @@
 		612B04CC210A485D0033153D /* TestPrivateCocoapodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPrivateCocoapodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		612B04D0210A485D0033153D /* TestPrivateCocoapodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrivateCocoapodsUITests.m; sourceTree = "<group>"; };
 		612B04D2210A485D0033153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619E49E52117699200CB8F8D /* DYDownloadTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYDownloadTool.h; sourceTree = "<group>"; };
+		619E49E62117699200CB8F8D /* DYDownloadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYDownloadTool.m; sourceTree = "<group>"; };
+		74801773EC5AF1F07AED4362 /* libPods-TestPrivateCocoapods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestPrivateCocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E003588DFDE8EA12C49D7459 /* Pods-TestPrivateCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPrivateCocoapods.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPrivateCocoapods/Pods-TestPrivateCocoapods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882EE2B2AD97D3DECF7291E0 /* libPods-TestPrivateCocoapods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CAE6CB96C4FDF330882F533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74801773EC5AF1F07AED4362 /* libPods-TestPrivateCocoapods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		612B04A0210A485D0033153D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				612B04C4210A485D0033153D /* TestPrivateCocoapodsTests */,
 				612B04CF210A485D0033153D /* TestPrivateCocoapodsUITests */,
 				612B04AA210A485D0033153D /* Products */,
+				DB485A17D9C868D07EBD6B10 /* Pods */,
+				2CAE6CB96C4FDF330882F533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,8 @@
 			children = (
 				612B04AC210A485D0033153D /* AppDelegate.h */,
 				612B04AD210A485D0033153D /* AppDelegate.m */,
+				619E49E52117699200CB8F8D /* DYDownloadTool.h */,
+				619E49E62117699200CB8F8D /* DYDownloadTool.m */,
 				612B04AF210A485D0033153D /* ViewController.h */,
 				612B04B0210A485D0033153D /* ViewController.m */,
 				612B04B2210A485D0033153D /* Main.storyboard */,
@@ -132,6 +152,15 @@
 			path = TestPrivateCocoapodsUITests;
 			sourceTree = "<group>";
 		};
+		DB485A17D9C868D07EBD6B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53DEA5DEB010877B60479051 /* Pods-TestPrivateCocoapods.debug.xcconfig */,
+				E003588DFDE8EA12C49D7459 /* Pods-TestPrivateCocoapods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 612B04D5210A485D0033153D /* Build configuration list for PBXNativeTarget "TestPrivateCocoapods" */;
 			buildPhases = (
+				88E62697F60EA134E7CE9027 /* [CP] Check Pods Manifest.lock */,
 				612B04A5210A485D0033153D /* Sources */,
 				612B04A6210A485D0033153D /* Frameworks */,
 				612B04A7210A485D0033153D /* Resources */,
+				E356F4BB756FB1E66BA9A63F /* [CP] Embed Pods Frameworks */,
+				2577F4A5392DB24C78027B67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +292,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2577F4A5392DB24C78027B67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestPrivateCocoapods/Pods-TestPrivateCocoapods-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPrivateCocoapods/Pods-TestPrivateCocoapods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E62697F60EA134E7CE9027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestPrivateCocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E356F4BB756FB1E66BA9A63F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestPrivateCocoapods/Pods-TestPrivateCocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		612B04A5210A485D0033153D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +354,7 @@
 			files = (
 				612B04B1210A485D0033153D /* ViewController.m in Sources */,
 				612B04BC210A485D0033153D /* main.m in Sources */,
+				619E49E72117699200CB8F8D /* DYDownloadTool.m in Sources */,
 				612B04AE210A485D0033153D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,10 +516,13 @@
 		};
 		612B04D6210A485D0033153D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DEA5DEB010877B60479051 /* Pods-TestPrivateCocoapods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
 				INFOPLIST_FILE = TestPrivateCocoapods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.TestPrivateCocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +532,13 @@
 		};
 		612B04D7210A485D0033153D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E003588DFDE8EA12C49D7459 /* Pods-TestPrivateCocoapods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZSCVU88C4;
 				INFOPLIST_FILE = TestPrivateCocoapods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.TestPrivateCocoapods;
 				PRODUCT_NAME = "$(TARGET_NAME)";

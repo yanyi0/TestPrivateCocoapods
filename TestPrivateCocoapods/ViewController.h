@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "BCAlertView.h"
+#import "NSObject+runtime.h"
+#import "DYDownloadTool.h"
 @interface ViewController : UIViewController
-
-
+@property(nonatomic,copy)NSString *hotUpdateUrl;
+@property(strong,nonatomic)BCAlertView *alertView;
 @end
 
